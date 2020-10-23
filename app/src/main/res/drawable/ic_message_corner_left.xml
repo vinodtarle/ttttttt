@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="43"
+    android:viewportHeight="39">
+    <path
+        android:fillColor="@color/whatsAppMessageBackgroundLeft"
+        android:pathData="M0.8,3.5L43.1,39V0l-41,0C0.2,0 -0.7,2.3 0.8,3.5z" />
+</vector>

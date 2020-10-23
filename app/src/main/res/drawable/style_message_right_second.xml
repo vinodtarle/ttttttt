@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient android:centerColor="@color/whatsAppMessageBackgroundRight" android:endColor="@color/whatsAppMessageBackgroundRight" android:startColor="@color/whatsAppMessageBackgroundRight" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+</selector>

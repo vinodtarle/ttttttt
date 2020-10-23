@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="com.kidgeneration.school.kg.attendance.view.UI" />
+
+        <variable
+            name="attendance"
+            type="com.kidgeneration.school.kg.attendance.model.Attendance" />
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutMain"
+        style="@style/LayoutSection"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/style_attendance_present"
+        android:gravity="center_vertical"
+        android:minHeight="70dp"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/HeadingD"
+                android:text="@{attendance.subjectName}" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FinePrint"
+                android:text="9.00 To 10.00" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FinePrint"
+                android:text="@{attendance.createdBy}" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            style="@style/LayoutWrapContent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/attendanceStatus"
+                android:layout_width="@dimen/layoutCircle"
+                android:layout_height="@dimen/layoutCircle"
+                android:background="@drawable/style_attendance_present_status"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/textStatus"
+                    style="@style/TextBody"
+                    android:text="@{String.valueOf(attendance.attendance.charAt(0)).toUpperCase()}"
+                    android:textColor="@color/attendanceStatusPresentDark" />
+
+                <!--android:text="@{UI.character(attendance.attendance)}"
+                    android:textColor="@{attendance.attendance == 0 ? @color/attendanceStatusPresentDark : attendance.attendance == 1 ? @color/attendanceStatusAbsentDark : attendance.attendance == 2 ? @color/attendanceStatusHolidayDark : @color/attendanceStatusLeaveDark}"-->
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FinePrintSubtle"
+                android:text="18 Mar 2018" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

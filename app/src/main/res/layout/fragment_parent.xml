@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutMatchParent"
+    android:orientation="vertical"
+    tools:context=".dashboard.parent.view.FragmentParent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewModule"
+        style="@style/LayoutSection" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewData"
+        style="@style/LayoutSection" />
+</androidx.appcompat.widget.LinearLayoutCompat>

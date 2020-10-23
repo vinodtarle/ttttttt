@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="school"
+            type="com.kidgeneration.school.kg.school.model.School" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutMain"
+        style="@style/LayoutSection"
+        android:layout_margin="@dimen/spacing1x">
+
+        <androidx.cardview.widget.CardView
+            style="@style/LayoutSection"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                style="@style/LayoutSection"
+                android:orientation="vertical"
+                android:padding="@dimen/spacingHalf">
+
+                <TextView
+                    style="@style/TextLeading"
+                    android:text="@{school.schoolName}" />
+
+                <TextView
+                    style="@style/TextBody"
+                    android:text="@{school.contact.phoneNumber}" />
+
+                <TextView
+                    style="@style/TextBody"
+                    android:text="@{school.address.address}" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

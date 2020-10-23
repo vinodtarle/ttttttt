@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Text Aliases    -->
+    <color name="textPrimary">@color/lunar</color>
+    <color name="textSecondary">@color/pearl</color>
+    <color name="textTertiary">@color/smoke</color>
+    <color name="textInvertedPrimary">@color/caviar</color>
+    <color name="textInvertedSecondary">@color/leadman</color>
+    <color name="textInvertedTertiary">@color/ash</color>
+    <color name="textError">@color/lobster</color>
+    <color name="textSuccess">@color/lime</color>
+
+    <!--    Foreground Colors   -->
+    <color name="interactiveForegroundNormal">@color/duckegg</color>
+    <color name="interactiveForegroundActive">@color/frost</color>
+    <color name="interactiveForegroundDisabled">@color/duckegg_t40</color>
+    <color name="interactiveInverseForegroundNormal">@color/caviar</color>
+    <color name="destructiveForegroundNormal">@color/lobster</color>
+    <color name="destructiveForegroundActive">@color/coral</color>
+    <color name="destructiveForegroundDisabled">@color/lobster_t40</color>
+
+    <!--    Background Colors   -->
+    <color name="interactiveInverseBackgroundNormal">@color/duckegg</color>
+    <color name="interactiveInverseBackgroundActive">@color/frost</color>
+    <color name="interactiveInverseBackgroundDisabled">@color/duckegg_t40</color>
+    <color name="interactiveBackgroundNormal">@color/caviar</color>
+    <color name="interactiveBackgroundActive">@color/duckegg_t16</color>
+    <color name="interactiveBackgroundDisabled">@color/caviar_t40</color>
+    <color name="destructiveInverseBackgroundNormal">@color/lobster</color>
+    <color name="destructiveInverseBackgroundActive">@color/coral</color>
+    <color name="destructiveInverseBackgroundDisabled">@color/lobster_t40</color>
+    <color name="destructiveBackgroundActive">@color/lobster_t12</color>
+
+    <!--    Material Color Aliases  -->
+    <color name="materialBase">@color/caviar</color>
+    <color name="materialBase01">@color/pitch</color>
+    <color name="materialBase02">@color/tar</color>
+    <color name="materialBase03">@color/onyx</color>
+    <color name="materialBase04">@color/peppercorn</color>
+    <color name="materialBase06">@color/inkwell</color>
+    <color name="materialBase08">@color/gunpowder</color>
+    <color name="materialBase12">@color/graphite</color>
+    <color name="materialBase16">@color/stardust</color>
+    <color name="materialBase24">@color/pewter</color>
+</resources>

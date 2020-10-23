@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <gradient android:centerColor="@color/moduleMessage" android:endColor="@color/moduleMessage" android:startColor="@color/moduleMessage" />
+            <stroke android:width="25px" android:color="@color/moduleBorderMessage" />
+        </shape>
+    </item>
+</selector>

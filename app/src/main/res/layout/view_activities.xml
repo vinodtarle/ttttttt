@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="parser"
+            type="com.kidgeneration.school.kg.base.utility.constant.Parser" />
+
+        <variable
+            name="activities"
+            type="com.kidgeneration.school.kg.activities.model.Activities" />
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutMain"
+        style="@style/LayoutSelection"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/header"
+            style="@style/LayoutSection"
+            android:background="@color/backgroundLayoutSelected"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/TextLeading"
+                android:text="@{parser.Companion.toEDMY(activities.date)}" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View style="@style/ViewHorizontal" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            style="@style/LayoutSection"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                style="@style/LayoutWrapContent"
+                android:gravity="end"
+                android:minWidth="50dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/HeadingD"
+                    android:text="@{parser.Companion.toTime(activities.time)}" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/TextBody"
+                    android:text="@{parser.Companion.toTimeFormat(activities.time)}" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <View
+                android:id="@+id/divider"
+                style="@style/ViewVertical"
+                android:layout_width="4dp"
+                android:layout_marginStart="@dimen/spacing1x" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                style="@style/LayoutSection"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/HeadingD"
+                    android:text="@{activities.title}" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/TextBody"
+                    android:text="@{activities.description}" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View style="@style/ViewHorizontal" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".school.view.FragmentSchoolAdd">
+
+    <data>
+
+        <variable
+            name="ui"
+            type="com.kidgeneration.school.kg.base.model.UI" />
+
+        <variable
+            name="data"
+            type="com.kidgeneration.school.kg.school.model.School" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutMain"
+        style="@style/LayoutMatchParent.Padding">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutName"
+            style="@style/TextInputLayout"
+            app:counterEnabled="true"
+            app:counterMaxLength="@string/limit_25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edName"
+                style="@style/TextInputEditText"
+                android:hint="@string/hintName"
+                android:inputType="textCapSentences"
+                android:maxLength="@string/limit_25"
+                android:nextFocusDown="@id/edDate"
+                android:singleLine="true"
+                android:text="@={data.schoolName}" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutDate"
+            style="@style/TextInputLayout"
+            app:helperTextEnabled="true"
+            android:layout_marginTop="@dimen/spacing1x"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutName">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edDate"
+                style="@style/TextInputEditText"
+                android:focusable="false"
+                android:hint="@string/hintDate"
+                android:inputType="date"
+                android:nextFocusDown="@id/edPhoneNumber"
+                android:singleLine="true"
+                android:text="@={ui.date}" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutPhoneNumber"
+            style="@style/TextInputLayout"
+            android:layout_marginTop="@dimen/spacing2x"
+            app:counterEnabled="true"
+            app:counterMaxLength="@string/limit_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutDate">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edPhoneNumber"
+                style="@style/TextInputEditText"
+                android:gravity="top"
+                android:hint="@string/hintPhoneNumber"
+                android:inputType="numberDecimal"
+                android:maxLength="@string/limit_10"
+                android:text="@={data.contact.phoneNumber}" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutAddress"
+            style="@style/TextInputLayout"
+            android:layout_marginTop="@dimen/spacing1nHalf"
+            app:counterEnabled="true"
+            app:counterMaxLength="@string/limit_250"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutPhoneNumber">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edAddress"
+                style="@style/TextInputEditText.Area"
+                android:gravity="top"
+                android:hint="@string/hintAddress"
+                android:inputType="textMultiLine|textCapSentences"
+                android:maxLength="@string/limit_250"
+                android:text="@={data.address.address}" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonAdd"
+            style="@style/OutlinedButton"
+            android:layout_marginTop="@dimen/spacing4x"
+            android:text="@string/buttonAdd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutAddress" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

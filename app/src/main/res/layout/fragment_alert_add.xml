@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".alert.view.FragmentAlertAdd">
+
+    <data>
+
+        <variable
+            name="ui"
+            type="com.kidgeneration.school.kg.base.model.UI" />
+
+        <variable
+            name="alert"
+            type="com.kidgeneration.school.kg.alert.model.Alert" />
+    </data>
+
+    <ScrollView style="@style/LayoutMatchParent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutMain"
+            style="@style/LayoutSection.Padding">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutTitle"
+                style="@style/TextInputLayout"
+                app:counterEnabled="true"
+                app:counterMaxLength="@string/limitMaxAlertTitle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edTitle"
+                    style="@style/TextInputEditText"
+                    android:hint="@string/hintAlertTitle"
+                    android:inputType="textCapSentences"
+                    android:maxLength="@string/limitMaxAlertTitle"
+                    android:nextFocusDown="@id/edDate"
+                    android:singleLine="true"
+                    android:text="@={alert.title}" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layoutDateTime"
+                style="@style/LayoutSection"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutTitle">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layoutDate"
+                    style="@style/TextInputLayout"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    app:helperText="@string/helperRequired"
+                    app:helperTextEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edDate"
+                        style="@style/TextInputEditText"
+                        android:focusable="false"
+                        android:hint="@string/hintDate"
+                        android:inputType="date"
+                        android:nextFocusDown="@id/edTime"
+                        android:singleLine="true"
+                        android:text="@={ui.date}" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layoutTime"
+                    style="@style/TextInputLayout"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    app:helperText="@string/helperRequired"
+                    app:helperTextEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edTime"
+                        style="@style/TextInputEditText"
+                        android:focusable="false"
+                        android:hint="@string/hintTime"
+                        android:inputType="time"
+                        android:nextFocusDown="@id/edDescription"
+                        android:singleLine="true"
+                        android:text="@={ui.time}" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutDescription"
+                style="@style/TextInputLayout"
+                android:layout_marginTop="20dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="@string/limitMaxAlertDetails"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutDateTime">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edDescription"
+                    style="@style/TextInputEditText.Area"
+                    android:gravity="top"
+                    android:hint="@string/hintAlertDetails"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:maxLength="@string/limitMaxAlertDetails"
+                    android:text="@={alert.description}" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonAdd"
+                style="@style/OutlinedButton"
+                android:layout_marginTop="@dimen/spacing4x"
+                android:text="@string/buttonAdd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutDescription" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

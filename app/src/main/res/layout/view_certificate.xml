@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="certificate"
+            type="com.kidgeneration.school.kg.certificate.model.Certificate" />
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutMain"
+        style="@style/LayoutSection"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"></androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

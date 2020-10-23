@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextInputEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextInputEditText.Area">
+        <item name="android:height">@dimen/editTextArea</item>
+    </style>
+
+    <style name="ContainedButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+        <item name="android:minWidth">@dimen/buttonMinWidth</item>
+    </style>
+
+    <style name="OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+        <item name="android:minWidth">@dimen/buttonMinWidth</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+        <item name="android:minWidth">@dimen/buttonMinWidth</item>
+    </style>
+</resources>

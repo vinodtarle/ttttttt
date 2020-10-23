@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "494313541958",
+    "firebase_url": "https://kid-generation.firebaseio.com",
+    "project_id": "kid-generation",
+    "storage_bucket": "kid-generation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494313541958:android:692c606ef31e2d6a",
+        "android_client_info": {
+          "package_name": "com.kidgeneration.school.kg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494313541958-jnkpa47sb6k8hefg4d65081m809ot65q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kidgeneration.school.kg",
+            "certificate_hash": "147174ca7f6f886b02ca0dea4fb9acbeed0dfd36"
+          }
+        },
+        {
+          "client_id": "494313541958-o69vta4iinoa3mg4i8j3393cp6riviq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kidgeneration.school.kg",
+            "certificate_hash": "3510f494b7767bf1c6519874b258833ba22a0c3d"
+          }
+        },
+        {
+          "client_id": "494313541958-l07bqhqq1ducrbhe07i9o8l0jgm80nov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvum78MjCrR9xPJ_BuLU-3INgJAQzN0Fs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494313541958-l07bqhqq1ducrbhe07i9o8l0jgm80nov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

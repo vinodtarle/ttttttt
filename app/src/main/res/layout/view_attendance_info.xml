@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="attendance"
+            type="com.kidgeneration.school.kg.attendance.model.Attendance" />
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutMain"
+        style="@style/LayoutSection"
+
+        android:gravity="center"
+        android:padding="5dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:tint="@color/attendanceStatusPresentDark"
+            app:srcCompat="@drawable/ic_check_circle" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/FinePrintSubtle"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:text="@string/txtAttendancePresent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:tint="@color/attendanceStatusAbsentDark"
+            app:srcCompat="@drawable/ic_check_circle" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/FinePrintSubtle"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:text="@string/txtAttendanceAbsent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:tint="@color/attendanceStatusHalfDayDark"
+            app:srcCompat="@drawable/ic_check_circle" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/FinePrintSubtle"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:text="@string/txtAttendanceHalfDay" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:tint="@color/attendanceStatusHolidayDark"
+            app:srcCompat="@drawable/ic_check_circle" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/FinePrintSubtle"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:text="@string/txtAttendanceHoliday" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:tint="@color/attendanceStatusLeaveDark"
+            app:srcCompat="@drawable/ic_check_circle" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/FinePrintSubtle"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:text="@string/txtAttendanceLeave" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

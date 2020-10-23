@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="module"
+            type="com.kidgeneration.school.kg.module.model.Module" />
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutMain"
+        style="@style/LayoutSection"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/spacingHalf">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/layoutModule"
+            android:layout_width="@dimen/moduleCircle"
+            android:layout_height="@dimen/moduleCircle"
+            android:background="@drawable/style_module"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/moduleIcon"
+                android:layout_width="@dimen/iconModule"
+                android:layout_height="@dimen/iconModule" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtName"
+            style="@style/FinePrint"
+            android:layout_marginTop="@dimen/spacingHalf"
+            android:gravity="center"
+            android:text="@{module.moduleName}" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

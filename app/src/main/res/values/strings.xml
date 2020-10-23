@@ -1,0 +1,884 @@
+<resources>
+    <string name="app_name">Kid Generation</string>
+    <string name="titleDashboard">Dashboard</string>
+    <string name="titleParent">Parent Dashboard</string>
+    <string name="titleTeacher">Teacher Dashboard</string>
+
+    <!-- Page Title -->
+    <string name="titleActivities">Activities</string>
+    <string name="titleActivitiesAdd">Add Activities</string>
+    <string name="titleActivitiesDetails">Activities Details</string>
+
+    <string name="titleAddAdmission">New Admission</string>
+    <string name="titleAdmission">Admission</string>
+
+    <string name="titleAlert">Alert</string>
+    <string name="titleAddAlert">Add Alert</string>
+    <string name="titleDetailsAlert">Alert Details</string>
+
+    <string name="titleAddAttendance">Add Attendance</string>
+    <string name="titleAttendance">Attendance</string>
+
+    <string name="titleAddBranch">Add Branch</string>
+    <string name="titleBranch">Branch</string>
+
+    <string name="titleAddCertificate">Add Certificate</string>
+    <string name="titleCertificate">Certificate</string>
+
+    <string name="titleAddComplaint">Add Complaint</string>
+    <string name="titleComplaint">Complaint</string>
+    <string name="titleDetailsComplaint">Complaint Details</string>
+
+    <string name="titleAddCourse">Add Course</string>
+    <string name="titleCourse">Course</string>
+
+    <string name="titleAddDaycare">Add Daycare</string>
+    <string name="titleDaycare">Daycare</string>
+
+    <string name="titleAddTypeDiary">Add Diary Type</string>
+    <string name="titleAddDiary">Add Diary</string>
+    <string name="titleDiary">Diary</string>
+    <string name="titleDetailsDiary">Diary Details</string>
+
+    <string name="titleAddDivision">Add Division</string>
+    <string name="titleDivision">Division</string>
+
+    <string name="titleAddDriver">Add Driver</string>
+    <string name="titleDriver">Driver</string>
+
+    <string name="titleAddEnquiry">Add Enquiry</string>
+    <string name="titleEnquiry">Enquiry</string>
+
+    <string name="titleAddEvent">Add Event</string>
+    <string name="titleEvent">Event</string>
+    <string name="titleDetailsEvent">Event Details</string>
+
+    <string name="titleAddExam">Add Exam</string>
+    <string name="titleExam">Exam</string>
+
+    <string name="titleAddFees">Add Fees</string>
+    <string name="titleFees">Fees</string>
+
+    <string name="titleAddGallery">Add Gallery</string>
+    <string name="titleGallery">Gallery</string>
+
+    <string name="titleAddHomework">Add Homework</string>
+    <string name="titleHomework">Homework</string>
+
+    <string name="titleAddInventory">Add Inventory</string>
+    <string name="titleInventory">Inventory</string>
+
+    <string name="titleAddIssue">Add Issue</string>
+    <string name="titleIssue">Issue</string>
+    <string name="titleDetailsIssue">Issue Details</string>
+
+    <string name="titleAddLeave">Leave Application</string>
+    <string name="titleLeave">Leave Applications</string>
+    <string name="titleDetailsLeave">Application Details</string>
+
+    <string name="titleAddLibrary">Add Library</string>
+    <string name="titleLibrary">Library</string>
+
+    <string name="titleAddMeeting">Add Meeting</string>
+    <string name="titleMeeting">Meeting</string>
+    <string name="titleDetailsMeeting">Meeting Details</string>
+
+    <string name="titleAssignModule">Assign Module</string>
+    <string name="titleAssignRole">Assign Role</string>
+    <string name="titleModule">Module</string>
+
+    <string name="titleAddNotice">Add Notice</string>
+    <string name="titleNotice">Notice</string>
+    <string name="titleDetailsNotice">Notice Details</string>
+
+    <string name="titleAddNotification">Add Notification</string>
+    <string name="titleNotification">Notification</string>
+
+    <string name="titleAddResult">Add Result</string>
+    <string name="titleResult">Result</string>
+
+    <string name="titleAddRole">Add Role</string>
+    <string name="titleRole">Role</string>
+
+    <string name="titleAddRoute">Add Route</string>
+    <string name="titleRoute">Route</string>
+    <string name="titleDetailsRoute">Route Details</string>
+
+    <string name="titleAddSchool">Add School</string>
+    <string name="titleSchool">School</string>
+    <string name="titleSchools">Schools</string>
+    <string name="titleDetailsSchool">School Details</string>
+    <string name="titleComment">Comments</string>
+
+    <string name="titleAddStaff">Add Staff</string>
+    <string name="titleDetailsStaff">Staff Details</string>
+    <string name="titleStaff">Staff</string>
+
+    <string name="titleAddStandard">Add Standard</string>
+    <string name="titleStandard">Standard</string>
+
+    <string name="titleAddStop">Add Stop</string>
+    <string name="titleStop">Stop</string>
+
+    <string name="titleAddStudent">Add Student</string>
+    <string name="titleStudent">Student</string>
+
+    <string name="titleAddSubject">Add Subject</string>
+    <string name="titleSubject">Subject</string>
+
+    <string name="titleAddTimetable">Add TimeTable</string>
+    <string name="titleTimetable">TimeTable</string>
+
+    <string name="titleAddTransport">Add Transport</string>
+    <string name="titleTransport">Transport</string>
+
+    <string name="titleAddTracking">Add Tracking</string>
+    <string name="titleTracking">Tracking</string>
+
+    <string name="titleAddUser">Add User</string>
+    <string name="titleUser">User</string>
+
+    <string name="titleAddVehicle">Add Vehicle</string>
+    <string name="titleAddTypeVehicle">Add Vehicle Type</string>
+    <string name="titleVehicle">Vehicle</string>
+
+
+
+
+
+
+
+
+    <string name="successAdd">Successfully save.</string>
+    <string name="successUpdate">Successfully update.</string>
+    <string name="successDelete">Successfully delete.</string>
+    <string name="successWritten">Document successfully written!</string>
+    <string name="successUpdated">Document successfully updated!</string>
+    <string name="successDeleted">Document successfully deleted!</string>
+
+    <string name="errorAdd">Enable to save, Try again.</string>
+    <string name="errorUpdate">Enable to update, Try again.</string>
+    <string name="errorDelete">Enable to delete, Try again.</string>
+    <string name="errorLoad">Enable to load, Try again.</string>
+    <string name="errorNotFound">No data found</string>
+    <string name="errorListenFailed">Listen failed.</string>
+    <string name="errorWritten">Error writing document</string>
+    <string name="errorUpdating">Error updating document</string>
+    <string name="errorDeleting">Error deleting document</string>
+
+    <string name="buttonAdd">ADD</string>
+    <string name="buttonEdit">EDIT</string>
+    <string name="buttonUpdate">UPDATE</string>
+    <string name="buttonDelete">DELETE</string>
+    <string name="buttonSave">SAVE</string>
+    <string name="buttonRemove">REMOVE</string>
+    <string name="buttonYes">Yes</string>
+    <string name="buttonNo">No</string>
+    <string name="buttonSubmit">Submit</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonNext">Next</string>
+    <string name="buttonBack">Back</string>
+    <string name="buttonRefresh">Refresh</string>
+
+    <!-- Data access key -->
+    <string name="keyA">a</string>
+    <string name="keyActivities">activities</string>
+    <string name="keyAlert">alert</string>
+
+    <string name="keyB">b</string>
+
+    <string name="keyC">c</string>
+    <string name="keyChatId">chatId</string>
+    <string name="keyComplaint">complaint</string>
+
+    <string name="keyD">d</string>
+    <string name="keyDescription">description</string>
+    <string name="keyDiary">diary</string>
+
+    <string name="keyE">e</string>
+    <string name="keyEvent">event</string>
+    <string name="keyF">f</string>
+    <string name="keyG">g</string>
+    <string name="keyH">h</string>
+
+    <string name="keyI">i</string>
+    <string name="keyIssue">issue</string>
+
+    <string name="keyJ">j</string>
+    <string name="keyK">k</string>
+
+    <string name="keyL">l</string>
+    <string name="keyLeave">leave</string>
+
+    <string name="keyM">m</string>
+    <string name="keyMeeting">meeting</string>
+    <string name="keyModule">module</string>
+    <string name="keyModuleNumber">moduleNumber</string>
+
+    <string name="keyN">n</string>
+    <string name="keyNotice">notice</string>
+    <string name="keyO">o</string>
+    <string name="keyP">p</string>
+    <string name="keyQ">q</string>
+
+    <string name="keyR">r</string>
+    <string name="keyRoute">route</string>
+
+    <string name="keyS">w</string>
+    <string name="keySetting">setting</string>
+    <string name="keySchool">school</string>
+    <string name="keyStaff">staff</string>
+    <string name="keyStandards">standards</string>
+
+    <string name="keyT">t</string>
+    <string name="keyTitle">title</string>
+
+    <string name="keyU">u</string>
+    <string name="keyV">v</string>
+    <string name="keyW">w</string>
+    <string name="keyX">x</string>
+    <string name="keyY">y</string>
+    <string name="keyZ">z</string>
+
+
+    <!-- Query Filed -->
+    <string name="fieldAccessible">accessible</string>
+    <string name="fieldAccessibleAdd">accessibleAdd</string>
+    <string name="fieldAccessibleUpdate">accessibleUpdate</string>
+    <string name="fieldAccessibleDelete">accessibleDelete</string>
+    <string name="fieldAverageRating">averageRating</string>
+
+    <string name="fieldBad">bad</string>
+
+    <string name="fieldCreatedAt">createdAt</string>
+    <string name="fieldCreatedBy">createdBy</string>
+    <string name="fieldCreatedById">createdById</string>
+
+    <string name="fieldDate">date</string>
+    <string name="fieldDay">day</string>
+    <string name="fieldDivision">division</string>
+    <string name="fieldDivisionId">divisionId</string>
+    <string name="fieldDivisionIds">divisionIds</string>
+
+    <string name="fieldExcellent">excellent</string>
+
+    <string name="fieldf"></string>
+    <string name="fieldFirstName">firstName</string>
+
+    <string name="fieldGood">good</string>
+    <string name="fieldGreat">great</string>
+
+    <string name="fieldHasData">hasData</string>
+
+    <string name="fieldi"></string>
+    <string name="fieldj"></string>
+    <string name="fieldk"></string>
+
+    <string name="fieldLectureNumber">lectureNumber</string>
+    <string name="fieldLikes">likes</string>
+
+    <string name="fieldm"></string>
+
+    <string name="fieldName">name</string>
+
+    <string name="fieldo"></string>
+    <string name="fieldp"></string>
+    <string name="fieldq"></string>
+
+    <string name="fieldRating">rating</string>
+    <string name="fieldRatings">ratings</string>
+
+    <string name="fieldRole">role</string>
+
+    <string name="fieldSchoolId">schoolId</string>
+    <string name="fieldStatus">status</string>
+    <string name="fieldStatusComplaint">statusComplaint</string>
+    <string name="fieldStatusIssue">statusIssue</string>
+    <string name="fieldStatusLeave">statusLeave</string>
+    <string name="fieldStandard">standard</string>
+    <string name="fieldStandardId">standardId</string>
+    <string name="fieldStandardIds">standardIds</string>
+    <string name="fieldStop">stop</string>
+    <string name="fieldStudentId">studentId</string>
+    <string name="fieldStudentIds">studentIds</string>
+    <string name="fieldSubjectName">subjectName</string>
+
+    <string name="fieldTerrible">terrible</string>
+    <string name="fieldTime">time</string>
+    <string name="fieldTotalLikes">totalLikes</string>
+    <string name="fieldTotalComments">totalComments</string>
+    <string name="fieldType">type</string>
+
+    <string name="fieldU"></string>
+    <string name="fieldV"></string>
+    <string name="fieldW"></string>
+    <string name="fieldX"></string>
+    <string name="fieldY"></string>
+    <string name="fieldZ"></string>
+
+    <string name="alertTitleRating">Rate this school.</string>
+    <string name="alertMsgRating">Tap a face to rate this school.</string>
+    <string name="alertMsgAddModules">Add modules?</string>
+    <string name="alertMsgDelete">Are you sure you want to delete this data?</string>
+    <string name="alertMsgUpdateStatus">Change status.</string>
+
+    <string name="txtType">Type</string>
+    <string name="txtLectureNumber">Lecture number</string>
+
+    <string name="txtDay">Day</string>
+    <string name="txtSubject">Subject</string>
+    <string name="txtStaff">Staff</string>
+
+    <string name="txtRatingTerrible">Terrible</string>
+    <string name="txtRatingBad">Bad</string>
+    <string name="txtRatingGood">Good</string>
+    <string name="txtRatingGreat">Great</string>
+    <string name="txtRatingExcellent">Excellent</string>
+
+    <string name="txtMale">Male</string>
+    <string name="txtFemale">Female</string>
+    <string name="txtOther">Other</string>
+
+    <string name="txtAddSubject">Add Subject</string>
+    <string name="txtAddBreak">Add break</string>
+
+    <string name="helperRequired">Required*</string>
+    <string name="errorRequired">Required*</string>
+    <string name="errorInvalid">Invalid*</string>
+
+    <string name="limitMaxFullName">65</string>
+    <string name="hintFullName">Full name</string>
+    <string name="errorRequiredFullName">Error: Full name is required.</string>
+    <string name="errorInvalidFullName">Error: Invalid full name.</string>
+
+    <string name="limitMaxFirstName">15</string>
+    <string name="hintFirstName">First name</string>
+    <string name="errorRequiredFirstName">Error: First name is required.</string>
+    <string name="errorInvalidFirstName">Error: Invalid first name.</string>
+
+    <string name="limitMaxMiddleName">15</string>
+    <string name="hintMiddleName">Middle name</string>
+    <string name="errorRequiredMiddleName">Error: Middle name is required.</string>
+    <string name="errorInvalidMiddleName">Error: Invalid middle name.</string>
+
+    <string name="limitMaxLastName">15</string>
+    <string name="hintLastName">Last name</string>
+    <string name="errorRequiredLastName">Error: Last name is required.</string>
+    <string name="errorInvalidLastName">Error: Invalid last name.</string>
+
+    <string name="limitMaxAadhaarNumber">12</string>
+    <string name="hintAadhaarNumber">Aadhaar number</string>
+    <string name="errorRequiredAadhaarNumber">Error: Aadhaar number is required.</string>
+    <string name="errorInvalidAadhaarNumber">Invalid aadhaar number.</string>
+    <string name="txtAadhaarNumber">Aadhaar number</string>
+
+    <string name="limitMaxPanNumber">10</string>
+    <string name="hintPanNumber">Pan number</string>
+    <string name="errorRequiredPanNumber">Error: Pan number is required.</string>
+    <string name="errorInvalidPanNumber">Error: Invalid pan number.</string>
+    <string name="txtPanNumber">Pan number</string>
+
+    <string name="hintBirthDate">Birth date</string>
+    <string name="errorRequiredBirthDate">Error: Birth date is required.</string>
+    <string name="errorInvalidBirthDate">Error: Invalid birth date.</string>
+    <string name="txtBirthDate">Birth date</string>
+
+    <string name="limitMaxPhoneNumber">15</string>
+    <string name="limitMinPhoneNumber">10</string>
+
+    <string name="errorRequiredPhoneNumber">Error: Phone number is required.</string>
+    <string name="errorInvalidPhoneNumber">Error: Invalid phone number.</string>
+    <string name="txtPhone">Phone</string>
+    <string name="txtPhoneNumber">Phone number</string>
+
+    <string name="limitMaxCountryCode">5</string>
+    <string name="limitMinCountryCode">1</string>
+    <string name="hintCode">Code</string>
+    <string name="hintVerificationCode">Verification code</string>
+    <string name="hintCountryCode">Country code</string>
+    <string name="errorRequiredCountryCode">Error: Country code is required.</string>
+    <string name="errorInvalidCountryCode">Error: Invalid country code.</string>
+    <string name="txtCode">Code</string>
+    <string name="txtCountryCode">Country code</string>
+
+    <string name="limitMaxMobileNumber">15</string>
+    <string name="limitMinMobileNumber">10</string>
+    <string name="hintMobileNumber">Mobile number</string>
+    <string name="errorRequiredMobileNumber">Error: Mobile number is required.</string>
+    <string name="errorInvalidMobileNumber">Error: Invalid mobile number.</string>
+    <string name="txtMobile">Mobile</string>
+    <string name="txtMobileNumber">Mobile number</string>
+
+    <string name="limitMaxEmail">45</string>
+    <string name="hintEmail">Email</string>
+    <string name="errorRequiredEmail">Error: Email is required.</string>
+    <string name="errorInvalidEmail">Error: Invalid email.</string>
+    <string name="txtEmail">Email</string>
+
+    <string name="limitMaxAddress">250</string>
+    <string name="errorRequiredAddress">Error: Address is required.</string>
+    <string name="txtAddress">Address</string>
+
+    <string name="limitMaxLandmark">65</string>
+    <string name="hintLandmark">Landmark</string>
+    <string name="errorRequiredLandmark">Error: Landmark is required.</string>
+    <string name="errorInvalidLandmark">Error: Invalid landmark.</string>
+    <string name="txtLandmark">Landmark</string>
+
+    <string name="limitMaxCityName">25</string>
+    <string name="hintCityName">City name</string>
+    <string name="errorRequiredCityName">Error: City name is required.</string>
+    <string name="errorInvalidCityName">Error: Invalid city name.</string>
+    <string name="txtCity">City</string>
+
+    <string name="limitMaxZipcode">6</string>
+    <string name="hintZipcode">Zipcode</string>
+    <string name="errorRequiredZipcode">Error: Zipcode is required.</string>
+    <string name="errorInvalidZipcode">Error: Invalid zipcode.</string>
+    <string name="txtZipcode">Zipcode</string>
+
+    <string name="limitMaxComment">200</string>
+    <string name="hintComment">Comment&#8230;</string>
+
+    <string name="errorRequiredDate">Error: Date is required.</string>
+    <string name="errorInvalidDate">Error: Invalid date.</string>
+    <string name="txtDate">Date</string>
+
+    <string name="errorRequiredTime">Error: Time is required.</string>
+    <string name="errorInvalidTime">Error: Invalid time.</string>
+    <string name="txtTime">Time</string>
+
+    <string name="hintStartTime">Start time</string>
+    <string name="errorRequiredStartTime">Error: Time is required.</string>
+    <string name="errorInvalidStartTime">Error: Invalid date.</string>
+    <string name="txtStartTime">Start time</string>
+
+    <string name="hintEndTime">End time</string>
+    <string name="errorRequiredEndTime">Error: End time is required.</string>
+    <string name="errorInvalidEndTime">Error: Invalid end time.</string>
+    <string name="txtEndTime">End time</string>
+
+    <string name="limitMaxBreak">25</string>
+    <string name="hintBreak">Break</string>
+
+    <!-- Activities -->
+    <string name="maxLinesActivitiesTitle">1</string>
+    <string name="maxLinesActivitiesDescription">4</string>
+    <string name="limitMaxActivitiesTitle">25</string>
+    <string name="limitMaxActivitiesDetails">250</string>
+    <string name="hintActivitiesTitle">Title</string>
+    <string name="hintActivitiesDetails">Details</string>
+
+    <!-- Admission -->
+
+    <!-- Alert -->
+    <string name="maxLinesAlertTitle">1</string>
+    <string name="maxLinesAlertDescription">4</string>
+    <string name="limitMaxAlertTitle">25</string>
+    <string name="limitMaxAlertDetails">250</string>
+    <string name="hintAlertTitle">Title</string>
+    <string name="hintAlertDetails">Details</string>
+
+    <!-- Attendance -->
+    <string name="txtAttendancePresent">Present</string>
+    <string name="txtAttendanceAbsent">Absent</string>
+    <string name="txtAttendanceHalfDay">Half Day</string>
+    <string name="txtAttendanceHoliday">Holiday</string>
+    <string name="txtAttendanceLeave">Leave</string>
+
+    <!-- Authentication -->
+    <string name="infoMobileNumber">Kid Generation will send one time SMS message to verify your phone number. Enter
+        your country code and phone number.
+    </string>
+    <string name="infoOTP">Waiting to automatically detect an SMS sent to</string>
+    <string name="infoOTPDetectFail">Fail to detect the SMS automatically. Please enter OTP manually.</string>
+    <string name="infoPassword">Please enter password for security purpose.</string>
+    <string name="infoForgotPassword">Please confirm your county code and enter your mobile number.</string>
+    <string name="txtCountry">Country</string>
+
+    <string name="limitMaxCode">6</string>
+
+
+    <!-- Branch -->
+    <!-- Certificate -->
+
+    <!-- Complaint -->
+    <string name="maxLinesComplaintTitle">1</string>
+    <string name="maxLinesComplaintDescription">1</string>
+    <string name="limitMaxComplaintTitle">25</string>
+    <string name="limitMaxComplaintDetails">250</string>
+    <string name="hintComplaintTitle">Title</string>
+    <string name="hintComplaintDetails">Details</string>
+
+    <!-- Course -->
+    <!-- Daycare -->
+
+    <!-- Diary -->
+    <string name="maxLinesDiaryTitle">1</string>
+    <string name="maxLinesDiaryDescription">4</string>
+    <string name="limitMaxDiary">25</string>
+    <string name="hintDiaryName">Diary type</string>
+    <string name="txtDiary">Diary</string>
+    <string name="limitMaxDiaryDetails">250</string>
+    <string name="hintDiaryDetails">Details</string>
+    <string name="menuDiaryAddType">Add Diary Type</string>
+
+    <!-- Division -->
+    <string name="txtDivision">Division</string>
+    <string name="txtSelectDivision">Select division</string>
+    <string name="limitMaxDivision">25</string>
+    <string name="hintDivisionName">Division name</string>
+    <string name="errorSelectDivision">Select division.</string>
+
+    <!-- Driver -->
+    <string name="driverLimitMaxTitle">25</string>
+    <string name="driverLimitMaxDetails">250</string>
+    <string name="driverHintTitle">Title</string>
+    <string name="driverHintDetails">Details</string>
+
+    <!-- Enquiry -->
+    <string name="enquiryLimitMaxTitle">25</string>
+    <string name="enquiryLimitMaxDetails">250</string>
+    <string name="enquiryHintTitle">Title</string>
+    <string name="enquiryHintDetails">Details</string>
+
+    <!-- Event -->
+    <string name="maxLinesEventTitle">1</string>
+    <string name="maxLinesEventDescription">4</string>
+    <string name="limitMaxEventTitle">25</string>
+    <string name="limitMaxEventDetails">250</string>
+    <string name="hintEventTitle">Title</string>
+    <string name="hintEventDetails">Details</string>
+
+    <!-- Exam -->
+    <!-- Fees -->
+    <!-- Image -->
+
+    <!-- Homework -->
+    <string name="limitMaxHomeworkDetails">250</string>
+    <string name="hintHomeworkDetails">Details</string>
+
+    <!-- Inventory -->
+
+    <!-- Issue -->
+    <string name="maxLinesIssueTitle">1</string>
+    <string name="maxLinesIssueDescription">1</string>
+    <string name="limitMaxIssueTitle">25</string>
+    <string name="limitMaxIssueDetails">250</string>
+    <string name="hintIssueTitle">Title</string>
+    <string name="hintIssueDetails">Details</string>
+
+    <!-- Leave -->
+    <string name="maxLinesLeaveTitle">1</string>
+    <string name="maxLinesLeaveDescription">1</string>
+    <string name="limitMaxLeaveTitle">25</string>
+    <string name="limitMaxLeaveDetails">250</string>
+    <string name="hintLeaveTitle">Title</string>
+    <string name="hintLeaveDetails">Details</string>
+
+    <!-- Material -->
+
+    <!-- Meeting -->
+    <string name="maxLinesMeetingTitle">1</string>
+    <string name="maxLinesMeetingDescription">4</string>
+    <string name="limitMaxMeetingTitle">25</string>
+    <string name="limitMaxMeetingDetails">250</string>
+    <string name="hintMeetingTitle">Title</string>
+    <string name="hintMeetingDetails">Details</string>
+
+    <!-- Message -->
+    <string name="txtM">a</string>
+    <string name="messageHint">Say something…</string>
+    <string name="lblM">a</string>
+    <string name="msgM">a</string>
+    <string name="errM">a</string>
+    <string name="btnM">a</string>
+
+    <!-- Module -->
+    <string name="moduleNotification">Notification</string>
+    <string name="moduleActivities">Activities</string>
+    <string name="moduleAdmission">Admission</string>
+    <string name="moduleAlert">Alert</string>
+    <string name="moduleAttendance">Attendance</string>
+    <string name="moduleBranch">Branch</string>
+    <string name="moduleBus">Bus</string>
+    <string name="moduleCertificate">Certificate</string>
+    <string name="moduleComplaint">Complaint</string>
+    <string name="moduleCourse">Course</string>
+    <string name="moduleDaycare">Daycare</string>
+    <string name="moduleDiary">Diary</string>
+    <string name="moduleDriver">Driver</string>
+    <string name="moduleEnquiry">Enquiry</string>
+    <string name="moduleEvent">Event</string>
+    <string name="moduleExam">Exam</string>
+    <string name="moduleFees">Fees</string>
+    <string name="moduleGallery">Gallery</string>
+    <string name="moduleHomework">Homework</string>
+    <string name="moduleInventory">Inventory</string>
+    <string name="moduleLeave">Leave</string>
+    <string name="moduleMaterial">Material</string>
+    <string name="moduleMeeting">Meeting</string>
+    <string name="moduleMessage">Message</string>
+    <string name="moduleNotice">Notice</string>
+    <string name="moduleResult">Result</string>
+    <string name="moduleRoute">Route</string>
+    <string name="moduleSchool">School</string>
+    <string name="moduleStaff">Staff</string>
+    <string name="moduleStop">Stop</string>
+    <string name="moduleStudent">Student</string>
+    <string name="moduleSubject">Subject</string>
+    <string name="moduleSyllabus">Syllabus</string>
+    <string name="moduleTimeTable">TimeTable</string>
+    <string name="moduleTopic">Topic</string>
+
+    <!-- Notice -->
+    <string name="maxLinesNoticeTitle">1</string>
+    <string name="maxLinesNoticeDescription">4</string>
+    <string name="limitMaxNoticeTitle">25</string>
+    <string name="limitMaxNoticeDetails">250</string>
+    <string name="hintNoticeTitle">Title</string>
+    <string name="hintNoticeDetails">Details</string>
+
+    <!-- Result -->
+
+    <!-- Role -->
+    <string name="limitMaxRoleName">25</string>
+    <string name="hintRoleName">Role name</string>
+
+    <!-- Route -->
+    <string name="limitMaxRoute">45</string>
+    <string name="hintRouteName">Route name</string>
+    <string name="hintRouteTime">Route time</string>
+    <string name="limitMaxRouteNumber">4</string>
+    <string name="hintRouteNumber">Route number</string>
+
+    <!-- Standard -->
+    <string name="txtStandard">Standard</string>
+    <string name="txtSelectStandard">Select standard</string>
+    <string name="limitMaxStandard">25</string>
+    <string name="hintStandardName">Standard name</string>
+    <string name="errorSelectStandard">Select standard.</string>
+
+    <!-- School -->
+    <string name="limitMaxSchoolName">25</string>
+    <string name="hintSchoolName">School name</string>
+    <string name="errorRequiredSchoolName">Error: School name is required.</string>
+    <string name="errorInvalidSchoolName">Error: Invalid school name.</string>
+
+    <!-- Staff -->
+    <string name="txtSelectStaff">Select staff</string>
+
+    <string name="limitMaxExperience">25</string>
+    <string name="hintExperience">Experience</string>
+    <string name="errorRequiredExperience">Error: Experience is required.</string>
+    <string name="errorInvalidExperience">Error: Invalid experience.</string>
+    <string name="txtExperience">Experience</string>
+
+    <string name="limitMaxSalary">7</string>
+    <string name="hintSalary">Salary</string>
+    <string name="errorRequiredSalary">Error: Salary is required.</string>
+    <string name="errorInvalidSalary">Error: Invalid salary.</string>
+    <string name="txtSalary">Salary</string>
+
+    <string name="hintJoiningDate">Joining date</string>
+    <string name="errorRequiredJoiningDate">Error: Joining date is required.</string>
+    <string name="errorInvalidJoiningDate">Error: Invalid joining date.</string>
+    <string name="txtJoiningDate">Joining date</string>
+
+    <!-- Stop -->
+    <string name="limitMaxStop">25</string>
+    <string name="hintStopName">Stop name</string>
+    <string name="txtStopStop">Stop</string>
+    <string name="txtStopStops">stops</string>
+    <string name="txtStopTotal">Total</string>
+
+    <!-- Student -->
+    <string name="txtStudents">Students</string>
+
+    <!-- Subject -->
+    <string name="txtSelectSubject">Select subject</string>
+    <string name="limitMaxSubject">25</string>
+    <string name="hintSubjectName">Subject name</string>
+
+    <!-- Syllabus -->
+
+    <!-- TimeTable -->
+    <string name="txtTimetableTo">To</string>
+    <string name="txtTimetableMin">Min</string>
+
+    <!-- Topic -->
+
+    <!-- Transport -->
+
+    <!-- Vehicle -->
+    <string name="limitMaxVehicleType">25</string>
+    <string name="hintVehicleType">Vehicle type</string>
+    <string name="menuVehicleAddType">Add Vehicle Type</string>
+
+    <string name="txtSelectVehicle">Select Vehicle</string>
+    <string name="txtSelectVehicleType">Select Vehicle Type</string>
+    <string name="txtVehicle">Vehicle</string>
+
+    <string name="limitMaxVehicleNumber">10</string>
+    <string name="hintVehicleNumber">Vehicle number</string>
+
+    <string name="limitMaxSeatingCapacity">2</string>
+    <string name="hintSeatingCapacity">Seating capacity</string>
+    <string name="txtCapacity">Capacity</string>
+
+    <array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </array>
+
+    <array name="timeTable">
+        <item>Add Subject</item>
+        <item>Add Break</item>
+    </array>
+
+    <array name="statusComplaint">
+        <item>Pending</item>
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Closed</item>
+    </array>
+
+    <array name="statusIssue">
+        <item>Open</item>
+        <item>In Progress</item>
+        <item>Resolved</item>
+        <item>Closed</item>
+        <item>Reopened</item>
+        <item>Postponed</item>
+    </array>
+
+    <array name="statusLeave">
+        <item>Pending</item>
+        <item>Accepted</item>
+        <item>Rejected</item>
+    </array>
+
+    <array name="lectureNumber">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+        <item>"11"</item>
+        <item>"12"</item>
+        <item>"13"</item>
+        <item>"14"</item>
+        <item>"15"</item>
+    </array>
+
+    <array name="questionType">
+        <item>Objective</item>
+        <item>Descriptive</item>
+    </array>
+
+    <array name="questionLevel">
+        <item>low</item>
+        <item>medium</item>
+        <item>hard</item>
+    </array>
+
+    <array name="countryName">
+        <item>India</item>
+    </array>
+
+    <array name="countryCode">
+        <item>India</item>
+    </array>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="betaTakePhoto">Take Photo</string>
+    <string name="betaTextRecog">Text Recognition</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--
+        <string name="moduleActivities">Activities</string>
+        <string name="moduleAdmission">Admission</string>
+        <string name="moduleAlert">Alert</string>
+        <string name="moduleAttendance">Attendance</string>
+        <string name="moduleBranch">Branch</string>
+        <string name="moduleBus">Bus</string>
+        <string name="moduleBusTracking">BusTracking</string>
+        <string name="moduleCertificate">Certificate</string>
+        <string name="moduleComplaint">Complaint</string>
+        <string name="moduleCourse">Course</string>
+        <string name="moduleDaycare">Daycare</string>
+        <string name="moduleDiary">Diary</string>
+        <string name="moduleDriver">Driver</string>
+        <string name="moduleEnquiry">Enquiry</string>
+        <string name="moduleEvent"> Event</string>
+        <string name="moduleExam">Exam</string>
+        <string name="moduleFees">Fees</string>
+        <string name="moduleGallery">Image</string>
+        <string name="moduleHomework">Homework</string>
+        <string name="moduleInventory">Inventory</string>
+        <string name="moduleLeave"> Leave</string>
+        <string name="moduleMaterial">Material</string>
+        <string name="moduleMeeting">Meeting</string>
+        <string name="moduleMessage">Message</string>
+        <string name="moduleNotice">Notice</string>
+        <string name="moduleResult">Result</string>
+        <string name="moduleRoute">Route</string>
+        <string name="moduleSchool">School</string>
+        <string name="moduleStaff">Staff</string>
+        <string name="moduleStop">Stop</string>
+        <string name="moduleStudent">Student</string>
+        <string name="moduleSubject">Subject</string>
+        <string name="moduleSyllabus">Syllabus</string>
+        <string name="moduleTimeTable">TimeTable</string>
+        <string name="moduleTopic">Topic</string>
+    -->
+
+    <!--<string name="moduleActivities"></string>
+        <string name="moduleAdmission"></string>
+        <string name="moduleAlert"></string>
+        <string name="moduleAttendance"></string>
+        <string name="moduleBranch"></string>
+        <string name="moduleBus"></string>
+        <string name="moduleBusTracking"></string>
+        <string name="moduleCertificate"></string>
+        <string name="moduleComplaint"></string>
+        <string name="moduleCourse"></string>
+        <string name="moduleDaycare"></string>
+        <string name="moduleDiary"></string>
+        <string name="moduleDriver"></string>
+        <string name="moduleEnquiry"></string>
+        <string name="moduleEvent"></string>
+        <string name="moduleExam"></string>
+        <string name="moduleFees"></string>
+        <string name="moduleGallery"></string>
+        <string name="moduleHomework"></string>
+        <string name="moduleInventory"></string>
+        <string name="moduleLeave"></string>
+        <string name="moduleMaterial"></string>
+        <string name="moduleMeeting"></string>
+        <string name="moduleMessage"></string>
+        <string name="moduleNotice"></string>
+        <string name="moduleResult"></string>
+        <string name="moduleRoute"></string>
+        <string name="moduleSchool"></string>
+        <string name="moduleStaff"></string>
+        <string name="moduleStop"></string>
+        <string name="moduleStudent"></string>
+        <string name="moduleSubject"></string>
+        <string name="moduleSyllabus"></string>
+        <string name="moduleTimeTable"></string>
+        <string name="moduleTopic"></string>-->
+</resources>

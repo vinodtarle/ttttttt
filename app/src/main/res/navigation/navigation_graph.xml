@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/baseFragment"
+        android:name="com.kidgeneration.school.kg.base.view.BaseFragment"
+        android:label="fragment_base"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.kidgeneration.school.kg.base.view.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/toFragmentTeacher"
+            app:destination="@id/fragmentTeacher" />
+        <action
+            android:id="@+id/toFragmentParent"
+            app:destination="@id/fragmentParent" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentTeacher"
+        android:name="com.kidgeneration.school.kg.dashboard.teacher.view.FragmentTeacher"
+        android:label="fragment_teacher"
+        tools:layout="@layout/fragment_teacher">
+        <action
+            android:id="@+id/toFragmentActivities"
+            app:destination="@id/fragmentActivities" />
+        <action
+            android:id="@+id/toFragmentAlert"
+            app:destination="@id/fragmentAlert" />
+        <action
+            android:id="@+id/toFragmentAttendance"
+            app:destination="@id/fragmentAttendance" />
+        <action
+            android:id="@+id/toFragmentBranch"
+            app:destination="@id/fragmentBranch" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentParent"
+        android:name="com.kidgeneration.school.kg.dashboard.parent.view.FragmentParent"
+        android:label="fragment_parent"
+        tools:layout="@layout/fragment_parent" />
+
+    <fragment
+        android:id="@+id/fragmentActivities"
+        android:name="com.kidgeneration.school.kg.activities.view.FragmentActivities"
+        android:label="fragment_activities"
+        tools:layout="@layout/fragment_activities">
+        <action
+            android:id="@+id/toFragmentActivitiesDetails"
+            app:destination="@id/fragmentActivitiesDetails" />
+        <action
+            android:id="@+id/toFragmentActivitiesAdd"
+            app:destination="@id/fragmentActivitiesAdd" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentActivitiesAdd"
+        android:name="com.kidgeneration.school.kg.activities.view.FragmentActivitiesAdd"
+        android:label="fragment_activities_add"
+        tools:layout="@layout/fragment_activities_add" />
+
+    <fragment
+        android:id="@+id/fragmentActivitiesDetails"
+        android:name="com.kidgeneration.school.kg.activities.view.FragmentActivitiesDetails"
+        android:label="fragment_activities_details"
+        tools:layout="@layout/fragment_activities_details" />
+
+    <fragment
+        android:id="@+id/fragmentAlert"
+        android:name="com.kidgeneration.school.kg.alert.view.FragmentAlert"
+        android:label="fragment_alert"
+        tools:layout="@layout/fragment_alert">
+        <action
+            android:id="@+id/toFragmentAlertAdd"
+            app:destination="@id/fragmentAlertAdd" />
+        <action
+            android:id="@+id/toFragmentAlertDetails"
+            app:destination="@id/fragmentAlertDetails" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentAlertAdd"
+        android:name="com.kidgeneration.school.kg.alert.view.FragmentAlertAdd"
+        android:label="fragment_alert_add"
+        tools:layout="@layout/fragment_alert_add" />
+
+    <fragment
+        android:id="@+id/fragmentAlertDetails"
+        android:name="com.kidgeneration.school.kg.alert.view.FragmentAlertDetails"
+        android:label="fragment_alert_details"
+        tools:layout="@layout/fragment_alert_details" />
+
+    <fragment
+        android:id="@+id/fragmentAttendance"
+        android:name="com.kidgeneration.school.kg.attendance.view.FragmentAttendance"
+        android:label="fragment_attendance"
+        tools:layout="@layout/fragment_attendance">
+        <action
+            android:id="@+id/toFragmentAttendanceAdd"
+            app:destination="@id/fragmentAttendanceAdd" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentAttendanceAdd"
+        android:name="com.kidgeneration.school.kg.attendance.view.FragmentAttendanceAdd"
+        android:label="fragment_attendance_add"
+        tools:layout="@layout/fragment_attendance_add" />
+
+    <fragment
+        android:id="@+id/fragmentBranch"
+        android:name="com.kidgeneration.school.kg.branch.view.FragmentBranch"
+        android:label="fragment_branch"
+        tools:layout="@layout/fragment_branch">
+        <action
+            android:id="@+id/toFragmentBranchAdd"
+            app:destination="@id/fragmentBranchAdd" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentBranchAdd"
+        android:name="com.kidgeneration.school.kg.branch.view.FragmentBranchAdd"
+        android:label="fragment_branch_add"
+        tools:layout="@layout/fragment_branch_add" />
+    <fragment
+        android:id="@+id/fragmentSchool"
+        android:name="com.kidgeneration.school.kg.school.view.FragmentSchool"
+        android:label="fragment_school"
+        tools:layout="@layout/fragment_school" >
+        <action
+            android:id="@+id/toFragmentSchoolAdd"
+            app:destination="@id/fragmentSchoolAdd" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSchoolAdd"
+        android:name="com.kidgeneration.school.kg.school.view.FragmentSchoolAdd"
+        android:label="fragment_school_add"
+        tools:layout="@layout/fragment_school_add" />
+
+</navigation>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00AA8D</color>
+    <color name="colorPrimaryDark">#008975</color>
+    <color name="colorAccent">#00BF9A</color>
+
+    <color name="red">#db3236</color>
+    <color name="yellow">#f4c20d</color>
+    <color name="green">#3cba54</color>
+    <color name="blue">#4885ed</color>
+    <color name="orange">#F4511E</color>
+
+    <!-- Below two color for floating action button background and icon respectively-->
+    <!--    <color name="colorSecondary">@color/colorAccent</color>-->
+    <!--    <color name="colorOnSecondary">@color/white</color>-->
+
+
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+
+    <color name="backgroundLayout">#FFFFFF</color>
+    <color name="backgroundRecycleViewDefault">#FFFFFF</color>
+    <color name="backgroundRecycleViewShade">#F5F5F5</color>
+    <color name="backgroundLayoutSelected">#F5F5F5</color>
+    <color name="backgroundLayoutMaterial">#F4F4F4</color>
+
+    <color name="view">#E0E0E0</color>
+
+    <color name="gray_300">#e6e6e6</color>
+    <color name="gray_200">#e9e9e9</color>
+    <color name="gray_150">#eaeaea</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_50">#FAFAFA</color>
+
+    <color name="stepActive">#00AA8D</color>
+    <color name="stepDisable">#6b6a6a</color>
+
+    <color name="textDark">#363535</color>
+    <color name="textLite">#3d3b3b</color>
+    <color name="textView">#464343</color>
+
+    <color name="editTextBorder">#363535</color>
+    <color name="editTextHint">#6b6a6a</color>
+    <color name="editText">#464343</color>
+
+    <color name="button_enable">#00AA8D</color>
+    <color name="button_disable">#464343</color>
+
+    <color name="iconAdd">#00AA8D</color>
+    <color name="iconCreate">#00AA8D</color>
+    <color name="iconUpdate">#00AA8D</color>
+    <color name="iconEdit">#00AA8D</color>
+    <color name="iconDelete">#D32F2F</color>
+    <color name="iconRemove">#D32F2F</color>
+    <color name="iconCancel">#D32F2F</color>
+
+    <color name="iconDefault">#9c999a</color>
+    <color name="iconActive">#00AA8D</color>
+    <color name="iconFAB">#FFFFFF</color>
+    <color name="iconSelect">#1093F5</color>
+
+    <color name="moduleIcon">#FFFFFF</color>
+    <color name="moduleIconDefault">#9c999a</color>
+    <color name="moduleIconActive">#00AA8D</color>
+
+    <color name="module">#9c999a</color>
+    <color name="moduleBorder">#579c999a</color>
+    <color name="moduleBackground">#FFFFFF</color>
+
+    <color name="ratingTerrible">#f41d1d</color>
+    <color name="ratingBad">#F57C00</color>
+    <color name="ratingGood">#FBC02D</color>
+    <color name="ratingGreat">#33c73b</color>
+    <color name="ratingExcellent">#129b18</color>
+
+    <color name="statusDefault">#FABB05</color>
+
+    <color name="statusComplaintPending">#FABB05</color>
+    <color name="statusComplaintInProgress">#F57C00</color>
+    <color name="statusComplaintCompleted">#34A853</color>
+    <color name="statusComplaintClosed">#9c999a</color>
+
+    <color name="statusIssueOpen">#4285F3</color>
+    <color name="statusIssueInProgress">#F57C00</color>
+    <color name="statusIssueResolved">#00AA8D</color>
+    <color name="statusIssueClosed">#34A853</color>
+    <color name="statusIssueReopened">#F57C00</color>
+    <color name="statusIssuePostponed">#795548</color>
+
+    <color name="statusLeavePending">#FABB05</color>
+    <color name="statusLeaveAccepted">#34A853</color>
+    <color name="statusLeaveRejected">#E94335</color>
+
+    <color name="moduleActivity">#7B1FA2</color>
+    <color name="moduleBorderActivity">#577B1FA2</color>
+
+    <color name="moduleAdmission">#795548</color>
+    <color name="moduleBorderAdmission">#57795548</color>
+
+    <color name="moduleAlert">#E64A19</color>
+    <color name="moduleBorderAlert">#57E64A19</color>
+    <color name="moduleAlertBackground">#e9e9e9</color>
+
+    <color name="moduleAttendance">#388E3C</color>
+    <color name="moduleBorderAttendance">#57388E3C</color>
+    <color name="moduleBackgroundAttendance">#e9e9e9</color>
+    <color name="attendanceStatusPresentDark">#388E3C</color>
+    <color name="attendanceStatusPresentLite">#4CAF50</color>
+    <color name="attendanceStatusAbsentDark">#D32F2F</color>
+    <color name="attendanceStatusAbsentLite">#F44336</color>
+    <color name="attendanceStatusHalfDayDark">#455A64</color>
+    <color name="attendanceStatusHalfDayLite">#607D8B</color>
+    <color name="attendanceStatusHolidayDark">#1976D2</color>
+    <color name="attendanceStatusHolidayLite">#2196F3</color>
+    <color name="attendanceStatusLeaveDark">#FBC02D</color>
+    <color name="attendanceStatusLeaveLite">#FFEB3B</color>
+
+    <color name="moduleBranch">#1976D2</color>
+    <color name="moduleBorderBranch">#571976D2</color>
+
+    <color name="moduleCertificate">#303F9F</color>
+    <color name="moduleBorderCertificate">#57303F9F</color>
+
+    <color name="moduleComplaint">#D32F2F</color>
+    <color name="moduleBorderComplaint">#57D32F2F</color>
+
+    <color name="moduleCourse">#00796B</color>
+    <color name="moduleBorderCourse">#5700796B</color>
+
+    <color name="moduleDaycare">#F4717F</color>
+    <color name="moduleBorderDaycare">#57F4717F</color>
+
+    <color name="moduleDiary">#335C7C</color>
+    <color name="moduleBorderDiary">#57335C7C</color>
+
+    <color name="moduleDivision">#c0392b</color>
+    <color name="moduleBorderDivision">#57c0392b</color>
+
+    <color name="moduleDriver">#34A853</color>
+    <color name="moduleBorderDriver">#5734A853</color>
+
+    <color name="moduleEnquiry">#F57C00</color>
+    <color name="moduleBorderEnquiry">#57F57C00</color>
+
+    <color name="moduleEvent">#2980B9</color>
+    <color name="moduleBorderEvent">#572980B9</color>
+    <color name="moduleEventBackground">#e9e9e9</color>
+
+    <color name="moduleExam">#C2185B</color>
+    <color name="moduleBorderExam">#57C2185B</color>
+
+    <color name="moduleFees">#00AA8D</color>
+    <color name="moduleBorderFees">#5700AA8D</color>
+
+    <color name="moduleGallery">#f99c77</color>
+    <color name="moduleBorderGallery">#57f99c77</color>
+
+    <color name="moduleHomework">#075e54</color>
+    <color name="moduleBorderHomework">#57075e54</color>
+
+    <color name="moduleInventory">#8e44ad</color>
+    <color name="moduleBorderInventory">#578e44ad</color>
+
+    <color name="moduleIssue">#D32F2F</color>
+    <color name="moduleBorderIssue">#57D32F2F</color>
+
+    <color name="moduleLeave">#27ae60</color>
+    <color name="moduleBorderLeave">#5727ae60</color>
+
+    <color name="moduleLibrary">#16a085</color>
+    <color name="moduleBorderLibrary">#5716a085</color>
+
+    <color name="moduleMeeting">#BF6A83</color>
+    <color name="moduleBorderMeeting">#57BF6A83</color>
+    <color name="moduleMeetingBackground">#e9e9e9</color>
+
+    <color name="moduleNotification">#D05419</color>
+    <color name="moduleBorderNotification">#57D05419</color>
+
+    <color name="moduleNotice">#E94335</color>
+    <color name="moduleBorderNotice">#57E94335</color>
+    <color name="moduleNoticeBackground">#e9e9e9</color>
+
+    <color name="moduleResult">#6B5A7A</color>
+    <color name="moduleBorderResult">#576B5A7A</color>
+
+    <color name="moduleStaff">#4285F3</color>
+    <color name="moduleBorderStaff">#574285F3</color>
+
+    <color name="moduleStandard">#E91E63</color>
+    <color name="moduleBorderStandard">#57E91E63</color>
+
+    <color name="moduleStudent">#34495e</color>
+    <color name="moduleBorderStudent">#5734495e</color>
+
+    <color name="moduleSubject">#d35400</color>
+    <color name="moduleBorderSubject">#57d35400</color>
+
+    <color name="moduleTimeTable">#128c7e</color>
+    <color name="moduleBorderTimeTable">#57128c7e</color>
+
+    <color name="moduleTransport">#FABB05</color>
+    <color name="moduleBorderTransport">#57FABB05</color>
+
+    <color name="moduleBus">#FABB05</color>
+    <color name="moduleBorderBus">#57FABB05</color>
+
+    <color name="moduleBusTracking">#E91E63</color>
+    <color name="moduleBorderBusTracking">#57E91E63</color>
+
+    <color name="moduleMaterial">#689F38</color>
+    <color name="moduleBorderMaterial">#57689F38</color>
+
+    <color name="moduleMessage">#128c7e</color>
+    <color name="moduleBorderMessage">#57128c7e</color>
+
+    <color name="moduleRole">#9b59b6</color>
+    <color name="moduleBorderRole">#579b59b6</color>
+
+    <color name="moduleRoute">#FF5505</color>
+    <color name="moduleBorderRoute">#57FF5505</color>
+    <color name="moduleRouteViewBorder">#E6E6E6</color>
+    <color name="moduleRouteViewBackground">#E6E6E6</color>
+
+    <color name="moduleSchool">#27ae60</color>
+    <color name="moduleBorderSchool">#5727ae60</color>
+
+    <color name="moduleStop">#16a085</color>
+    <color name="moduleBorderStop">#5716a085</color>
+
+    <color name="moduleSyllabus">#34495e</color>
+    <color name="moduleBorderSyllabus">#5734495e</color>
+
+    <color name="moduleTopic">#607D8B</color>
+    <color name="moduleBorderTopic">#57607D8B</color>
+
+
+    <color name="color2">#7B1FA2</color>
+    <color name="color3">#795548</color>
+    <color name="color4">#E64A19</color>
+    <color name="color5">#388E3C</color>
+    <color name="color6">#1976D2</color>
+    <color name="color7">#303F9F</color>
+    <color name="color8">#D32F2F</color>
+    <color name="color9">#00796B</color>
+    <color name="color10">#F4717F</color>
+    <color name="color11">#335C7C</color>
+    <color name="color12">#34A853</color>
+    <color name="color13">#F57C00</color>
+    <color name="color14">#2980B9</color>
+    <color name="color15">#C2185B</color>
+    <color name="color16">#00AA8D</color>
+    <color name="color17">#455A64</color>
+    <color name="color18">#8e44ad</color>
+    <color name="color19">#c0392b</color>
+    <color name="color20">#689F38</color>
+    <color name="color21">#BF6A83</color>
+    <color name="color22">#075e54</color>
+    <color name="color23">#D05419</color>
+    <color name="color24">#27ae60</color>
+    <color name="color25">#6B5A7A</color>
+    <color name="color26">#4285F3</color>
+    <color name="color27">#E91E63</color>
+    <color name="color28">#34495e</color>
+    <color name="color29">#d35400</color>
+    <color name="color30">#128c7e</color>
+    <color name="color31">#FABB05</color>
+    <color name="color32">#F7B195</color>
+    <color name="color33">#16A085</color>
+    <color name="color34">#607D8B</color>
+    <color name="color35">#E94335</color>
+    <color name="color36">#8eb75d</color>
+
+    <color name="googleBlue">#4285F3</color>
+    <color name="googleRed">#E94335</color>
+    <color name="googleYellow">#FABB05</color>
+    <color name="googleGreen">#34A853</color>
+
+    <color name="background_message_left">#FCFCFC</color>
+    <color name="background_message_right">#E0FEC6</color>
+    <color name="text_user_name">#f1c40f</color>
+
+    <color name="whatsApp">#075D53</color>
+    <color name="whatsAppDark">#054D44</color>
+    <color name="whatsAppMessageBackgroundLeft">#FCFCFC</color>
+    <color name="whatsAppMessageBackgroundRight">#E0FEC6</color>
+    <color name="whatsAppDateBackground">#D3E9F3</color>
+    <color name="whatsAppDate">#616B70</color>
+    <color name="whatsAppDateLeft">#999999</color>
+    <color name="whatsAppDateRight">#879977</color>
+    <color name="whatsAppStatusSent">#879977</color>
+    <color name="whatsAppStatusRead">#34B6F0</color>
+    <color name="whatsAppButtonSent">#00897B</color>
+    <color name="whatsAppIcon">#858B90</color>
+    <color name="whatsAppSent">#FEFEFE</color>
+    <color name="whatsAppEditTextBackground">#FEFEFE</color>
+    <color name="whatsAppEditTextHint">#CECECE</color>
+    <color name="whats">#00000000</color>
+
+    <color name="selectorDark">#6e6f71</color>
+    <color name="selectorLite">#808080</color>
+    <color name="selectorBorder">#E64A19</color>
+    <color name="selectorFill">#ffffff</color>
+    <color name="selectorText">#384573</color>
+    <color name="selectorFillText">#ffffff</color>
+
+    <color name="colorYD">#ffb90f</color>
+    <color name="colorYL">#f1c40f</color>
+    <color name="temp">#e2cd76</color>
+
+    <color name="transparent_20">#33e2cd76</color>
+    <color name="transparent_50">#80e2cd76</color>
+    <color name="transparent_70">#B3e2cd76</color>
+
+    <!--
+    100% — FF
+    99% — FC
+    98% — FA
+    97% — F7
+    96% — F5
+    95% — F2
+    94% — F0
+    93% — ED
+    92% — EB
+    91% — E8
+
+    90% — E6
+    89% — E3
+    88% — E0
+    87% — DE
+    86% — DB
+    85% — D9
+    84% — D6
+    83% — D4
+    82% — D1
+    81% — CF
+
+    80% — CC
+    79% — C9
+    78% — C7
+    77% — C4
+    76% — C2
+    75% — BF
+    74% — BD
+    73% — BA
+    72% — B8
+    71% — B5
+
+    70% — B3
+    69% — B0
+    68% — AD
+    67% — AB
+    66% — A8
+    65% — A6
+    64% — A3
+    63% — A1
+    62% — 9E
+    61% — 9C
+
+    60% — 99
+    59% — 96
+    58% — 94
+    57% — 91
+    56% — 8F
+    55% — 8C
+    54% — 8A
+    53% — 87
+    52% — 85
+    51% — 82
+
+    50% — 80
+    49% — 7D
+    48% — 7A
+    47% — 78
+    46% — 75
+    45% — 73
+    44% — 70
+    43% — 6E
+    42% — 6B
+    41% — 69
+
+    40% — 66
+    39% — 63
+    38% — 61
+    37% — 5E
+    36% — 5C
+    35% — 59
+    34% — 57
+    33% — 54
+    32% — 52
+    31% — 4F
+
+    30% — 4D
+    29% — 4A
+    28% — 47
+    27% — 45
+    26% — 42
+    25% — 40
+    24% — 3D
+    23% — 3B
+    22% — 38
+    21% — 36
+
+    20% — 33
+    19% — 30
+    18% — 2E
+    17% — 2B
+    16% — 29
+    15% — 26
+    14% — 24
+    13% — 21
+    12% — 1F
+    11% — 1C
+
+    10% — 1A
+    9% — 17
+    8% — 14
+    7% — 12
+    6% — 0F
+    5% — 0D
+    4% — 0A
+    3% — 08
+    2% — 05
+    1% — 03
+    0% — 00
+    -->
+</resources>

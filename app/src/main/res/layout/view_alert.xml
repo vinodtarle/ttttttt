@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="parser"
+            type="com.kidgeneration.school.kg.base.utility.constant.Parser" />
+
+        <variable
+            name="alert"
+            type="com.kidgeneration.school.kg.alert.model.Alert" />
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutMain"
+        style="@style/LayoutSection"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            style="@style/LayoutSection"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                style="@style/LayoutWrapContent"
+                android:gravity="center"
+                android:minWidth="75dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/style_alert_background"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/HeadingC"
+                        android:text="@{parser.Companion.day(alert.date)}" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/FinePrintSubtle"
+                        android:text="@{parser.Companion.month(alert.date)}" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/background"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@drawable/style_alert_background_bottom"
+                    android:gravity="center">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/moduleName"
+                        style="@style/FinePrint"
+                        android:text="@{parser.Companion.year(alert.date)}"
+                        android:textColor="@color/white" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                style="@style/LayoutSection"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/HeadingD"
+                    android:maxLines="@string/maxLinesAlertTitle"
+                    android:text="@{alert.title}" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/FinePrint"
+                    android:maxLines="@string/maxLinesAlertDescription"
+                    android:text="@{alert.description}" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View style="@style/ViewHorizontal" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

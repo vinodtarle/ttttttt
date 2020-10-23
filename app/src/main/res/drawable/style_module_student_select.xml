@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <gradient android:centerColor="@color/moduleStudent" android:endColor="@color/moduleStudent" android:startColor="@color/moduleStudent" />
+            <stroke android:width="25px" android:color="@color/moduleBorderStudent" />
+        </shape>
+    </item>
+</selector>
